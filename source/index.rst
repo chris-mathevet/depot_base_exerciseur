@@ -3,18 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-
 Titre
 ================================
 
+Sous-titre
+----------
+
+Sous-sous-titre
+~~~~~~~~~~~~~~~
+
+Autre niveau
+^^^^^^^^^^^^^
+
+Potentiel description
 
 .. toctree::
    :maxdepth: 2
-   :numbered: 0
+   :numbered: 2
    :glob:
-   :caption: Exercices du groupement 1, 1 exercice par feuille
+   :caption: Exercices fait avec Jacadi (python), 1 exercice par feuille
    
-   Groupement1/index*
+   1_Jacadi_solo/index*
 
 
 
@@ -22,6 +31,6 @@ Titre
    :maxdepth: 1
    :numbered: 0
    :glob:
-   :caption: Exercices du groupement 2, plusieurs exercices par feuille
+   :caption: Exercices fait avec Jacadi (python), plusieurs exercices par feuille
    
-   Groupement2/index*
+   2_Jacadi_multi/index*
