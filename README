@@ -1,0 +1,11 @@
+# source/conf.py
+
+Lignes à changer : 
+
+22-24
+Pour les copyright et author, si plusieurs personnes, séparez par une virgule et un espace.
+
+110
+137,138
+147,148
+158-160
