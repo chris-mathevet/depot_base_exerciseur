@@ -3,7 +3,7 @@ Maximum
 
 Ecrire une fonction renvoie le plus grand nombre d'une liste de nombres. 
 
-.. easypython:: ./Exercices1/exo2/
+.. easypython:: ./exo2/
    :language: Jacadi
    :titre: Exercice 2
    :extra_yaml:

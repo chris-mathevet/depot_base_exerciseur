@@ -6,5 +6,5 @@
 Exercices 1
 =======================
 
-.. include::  Exercices1/exo1.rst
-.. include::  Exercices1/exo2.rst
+.. include::  ./Exercices1/exo1.rst
+.. include::  ./Exercices1/exo2.rst
