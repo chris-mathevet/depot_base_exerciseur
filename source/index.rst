@@ -25,8 +25,6 @@ Potentiel description
    
    1_Jacadi_solo/index*
 
-
-
 .. toctree::
    :maxdepth: 1
    :numbered: 0
@@ -34,3 +32,44 @@ Potentiel description
    :caption: Exercices fait avec Jacadi (python), plusieurs exercices par feuille
    
    2_Jacadi_multi/index*
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 0
+   :glob:
+   :caption: Exercice fait avec Dockerfile
+   
+   3_Dockerfile/*
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 0
+   :glob:
+   :caption: Exercice fait avec Démon Python (python)
+   
+   4_DemonPython/*
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 0
+   :glob:
+   :caption: Exercice fait avec Package Python (python)
+   
+   5_PackagePython/*
+
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 0
+   :glob:
+   :caption: Exercice fait avec Tests Python (python)
+   
+   6_TestsPython/*
+
+.. toctree::
+   :maxdepth: 1
+   :numbered: 0
+   :glob:
+   :caption: Exercice fait avec java
+   
+   7_Java/*
