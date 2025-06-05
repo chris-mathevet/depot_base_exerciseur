@@ -8,7 +8,7 @@ Ce fichier sera utilisé par l'application readthedocs afin d'établir les confi
 
 ## source/conf.py
 
-Ce fichier contient les informations générales du projet que vous allez créer, vous devrez y rentrer son nom, vos nom/prénoms et d'autres informations.
+Ce fichier sera utilisé par l'application readthedocs afin d'établir les configurations de base, comme quelle version de python, le chemin des requirements et du conf.py.
 
 Voici les différentes lignes à changer : 
 
@@ -24,7 +24,7 @@ Pour les copyright et author, si plusieurs personnes, séparez par une virgule e
 
 Pour prévisualiser, vous pouvez générer les fichiers HTML qui seront présents sur la plateforme (Pas de tentatives possibles).
 
-Pour cela, créer un environnement virtuel Python en 3.7 et activer le.
+Pour cela, créer un environnement virtuel Python en 3.7 et l'activer.
 
 ```
   virtualenv -p python3.7 venv
@@ -58,7 +58,7 @@ Ensuite vous pouvez voir comment créer une table des matières.
    :glob:                 -> Permet la jointure automatique d'autres fichiers .rst
    :caption: Exercices    -> Titre de la table des matières
 
-   1_Jacadi_solo/index*   -> gràce au :glob: permet d'inclure au niveau inférieur les fichiers index se trouvant dans "1_Jacadi_solo/" (Titres de niveau 2)
+   1_Jacadi_solo/index*   -> grâce au :glob: permet d'inclure au niveau inférieur les fichiers index se trouvant dans "1_Jacadi_solo/" (Titres de niveau 2)
 ```
 
 Vous pouvez mettre plusieurs tables des matières dans un même fichier, comme montré dans le fichier index.rst à la racine du répertoire source.
@@ -84,7 +84,7 @@ Veuillez vous référer à la documentation du module docker-exerciseur présent
 .. easypython:: ./exo1/        -> Chemin relatif vers le répertoire contenant les fichiers de configurations
    :language: Jacadi           -> Langage de l'exercice (Voir documentation exerciseur)
    :titre: Exercice 1          -> Titre de l'exercice
-   :extra_yaml:                -> Précision des fichiers de configurations se trouvant dans le répertoire, différent pour chanque langage (Voir documentation exerciseur)
+   :extra_yaml:                -> Précision des fichiers de configurations se trouvant dans le répertoire, différents pour chaque langage (Voir documentation exercice)
      fichier_ens: exo1.py      -> Ici, fichier_ens pour Jacadi, fichier de la fonction de solution avec entrées visibles et invisibles
 
 ```
